@@ -10,14 +10,19 @@
 // ---------- Problem 1: Range Builder ----------
 // Return an array of every integer from start to end, inclusive.
 // Use a for loop and .push() to build the array one number at a time.
-function getNumbersInRange(start, end) {
-  // TODO: your code here
+// function getNumbersInRange(start, end) {
+//   let result = [];
+  
+//   for (let i = start; i <= end; i++) {
+//     result.push(i);
+//   }
+  
+//   return result;
+// }
 
-}
-
-console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
-console.log(getNumbersInRange(10, 10)); // [10]
-console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
+// console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
+// console.log(getNumbersInRange(10, 10)); // [10]
+// console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
 
 
 // ---------- Problem 2: Sum a Range ----------
@@ -36,9 +41,13 @@ console.log(sumRange(4, 4));   // 4
 // ---------- Problem 3: Countdown ----------
 // Return an array counting down from n to 1.
 // Use a while loop, not a for loop.
-function countdown(n) {
-  // TODO: your code here
+function countdown(number) {
 
+while (number >= 0) {
+  console.log("Countdown: " + number);
+  number--; // subtract 1 each time
+}
+ end if(number === 0)
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
